@@ -2592,10 +2592,12 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		justify-content: center;
 	}
 
 		.image img {
 			display: block;
+			
 		}
 
 		.image.left, .image.right {
@@ -2635,7 +2637,8 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 4rem 0;
-			width: 100%;
+			
+			justify-content: center;
 		}
 
 			.image.main:first-child {
@@ -2646,8 +2649,9 @@ input, select, textarea {
 				display: block;
   				margin-left: auto;
   				margin-right: auto;
-  				width: 50%;
+  				width: 35%;
 			}
+
 
 		@media screen and (max-width: 736px) {
 
